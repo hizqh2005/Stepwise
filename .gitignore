@@ -1,0 +1,15 @@
+.dsh-electron-home/
+.dsh-desktop-home/
+.pnpm-store/
+.xdg-cache/
+.xdg-data/
+.xdg-state/
+.electron-cache/
+.electron-user-data/
+.npm-cache/
+.corepack/
+.mimocode/
+.icon-build/
+node_modules/
+*.log
+.tmp-*/

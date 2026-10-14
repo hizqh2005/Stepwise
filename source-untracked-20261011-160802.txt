@@ -1,0 +1,121 @@
+ M .gitignore
+ M apps/cli/package.json
+ M apps/desktop/README.md
+ M apps/desktop/README.zh.md
+ M apps/desktop/resources/icon-macos.png
+ M apps/desktop/resources/icon-macos.svg
+ M apps/desktop/resources/icon-windows.png
+ M apps/desktop/resources/icon-windows.svg
+ M apps/desktop/resources/icon.png
+ M apps/desktop/resources/icon.svg
+ M apps/desktop/src/ipc.ts
+ M apps/desktop/src/main.ts
+RM apps/desktop/src/microphone-permissions.ts -> apps/desktop/src/media-permissions.ts
+ M apps/desktop/src/preload-app.ts
+RM apps/desktop/tests/microphone-permissions.spec.ts -> apps/desktop/tests/media-permissions.spec.ts
+ M apps/web/index.html
+ M apps/web/package.json
+ M apps/web/tests/built-boot.expected.e2e.ts
+ M apps/web/tests/connection-recovery.e2e.ts
+ M apps/web/tests/details-session-lifecycle.e2e.ts
+ M apps/web/tests/goal-command-presentation.e2e.ts
+ M apps/web/tests/hmr-live.e2e.ts
+ M apps/web/tests/lifecycle-chrome.e2e.ts
+ M apps/web/tests/scaffold.ts
+ M apps/web/tests/startup-auto-selection.e2e.ts
+ M apps/web/vite.config.ts
+ M docs/config-catalog.md
+ M docs/subsystems/attachment.i18n.yaml
+ M docs/subsystems/attachment.md
+ M docs/subsystems/attachment.zh.md
+ M packages/api/remotes/package.json
+ M packages/api/remotes/src/client/index.ts
+ M packages/api/remotes/tsconfig.client.json
+ M packages/api/workspace-controller/README.md
+ M packages/api/workspace-controller/README.zh.md
+ M packages/api/workspace-controller/src/client/model.ts
+ M packages/api/workspace-controller/src/client/service.ts
+ M packages/api/workspace-controller/src/commands.ts
+ M packages/api/workspace-controller/src/index.ts
+ M packages/api/workspace-controller/src/types.ts
+ M packages/api/workspace-controller/tests/workspace-controller.host.spec.ts
+ M packages/attachment/attachment-local/README.i18n.yaml
+ M packages/attachment/attachment-local/README.md
+ M packages/attachment/attachment-local/README.zh.md
+ M packages/attachment/attachment-local/src/index.ts
+ M packages/attachment/attachment/README.i18n.yaml
+ M packages/attachment/attachment/README.md
+ M packages/attachment/attachment/README.zh.md
+ M packages/attachment/attachment/src/index.ts
+ M packages/attachment/attachment/src/types.ts
+ M packages/boot/app-boot/src/profile.ts
+ M packages/bundle/web-app/cordis.patch.yml
+ M packages/bundle/web-app/package.json
+ M packages/client/locale/src/locales/en.ts
+ M packages/client/locale/src/locales/zh.ts
+ M packages/client/ui-agent-preset/src/client/AgentPresetSeat.module.css
+ M packages/client/ui-agent-preset/src/client/AgentPresetSeat.tsx
+ M packages/client/ui-agent-preset/src/client/PresetGuideDialog.tsx
+ M packages/client/ui-agent-preset/src/client/guide-locales.ts
+ M packages/client/ui-agent-preset/src/client/index.ts
+ M packages/client/ui-agent-preset/src/client/locales.ts
+ M packages/client/ui-agent-preset/src/client/seat-store.ts
+ M packages/client/ui-agent-preset/src/client/settings-store.ts
+ M packages/client/ui-conversation/src/client/input/editor/keymap.ts
+ M packages/client/ui-conversation/src/client/locales.ts
+ M packages/client/ui-conversation/src/client/service.ts
+ M packages/client/ui-conversation/src/client/skeleton/EmptyHero.tsx
+ M packages/client/ui-conversation/src/client/skeleton/HeroShell.module.css
+ M packages/client/ui-conversation/tests/skeleton.client.spec.tsx
+ M packages/client/ui-layout/tests/app-frame.client.spec.tsx
+ M packages/client/ui-layout/tests/document-title.client.spec.tsx
+ M packages/client/ui-primitives/src/icons/index.tsx
+ M packages/client/ui-settings-general/tests/shell.client.spec.ts
+ M packages/client/ui-sidebar-files/src/client/definition.tsx
+ M packages/client/ui-sidebar-terminal/src/client/index.ts
+ M packages/client/ui-sidebar/src/client/SidebarRoot.module.css
+ M packages/client/ui-sidebar/src/client/SidebarRoot.tsx
+ M packages/client/ui-sidebar/tests/__snapshots__/sidebar-snapshot.client.spec.tsx.snap
+ M packages/client/ui-sidebar/tests/sidebar-root.client.spec.tsx
+ M packages/client/ui-sidebar/tests/sidebar-styles.client.spec.ts
+ M packages/client/ui-workspace/src/client/WorkspacePicker.tsx
+ M packages/client/ui-workspace/src/client/contract/slots.ts
+ M packages/client/ui-workspace/src/client/index.ts
+ M packages/client/ui-workspace/src/client/locales.ts
+ M packages/client/ui-workspace/src/client/navigation.ts
+ M packages/client/ui-workspace/src/client/rows/Rows.tsx
+ M packages/client/ui-workspace/src/client/rows/WorkspaceBrowser.tsx
+ M packages/fs/fs-sandbox/src/index.ts
+ M packages/preset/agent-preset-registry/src/display.ts
+ M packages/workspace/workspace/src/index.ts
+ M pnpm-lock.yaml
+ M scripts/verify-package-readme-model-experience.ts
+ M snapshots/web/fresh-round-trip/blank-reload.expected.md
+ M snapshots/web/lifecycle-chrome/hero.expected.md
+ M snapshots/web/lifecycle-chrome/plan-active-zh.expected.md
+ M snapshots/web/lifecycle-chrome/plan-active.expected.md
+ M snapshots/web/voice-input/ui.expected.md
+ M tsconfig.base.json
+ M tsconfig.client.json
+ M tsconfig.host.json
+?? REPOSITORY_GUIDE.md
+?? apps/desktop/src/zoom-retention.ts
+?? apps/desktop/src/zoom-target.ts
+?? apps/desktop/src/zoom.ts
+?? apps/desktop/tests/zoom.spec.ts
+?? learning-mode-prototype.html
+?? packages/api/image-cache-controller/
+?? packages/attachment/attachment-local/src/request-cache.ts
+?? packages/attachment/attachment-local/tests/request-cache.spec.ts
+?? packages/bundle/web-app/presets/learn.patch.yml
+?? packages/client/ui-agent-preset/src/client/CustomPromptDialog.module.css
+?? packages/client/ui-agent-preset/src/client/CustomPromptDialog.tsx
+?? packages/client/ui-agent-preset/src/client/custom-prompt-store.ts
+?? packages/client/ui-agent-preset/src/client/learning-prompt-seam.ts
+?? packages/client/ui-settings-storage/
+?? packages/client/ui-sidebar/src/client/ModeSwitcher.tsx
+?? packages/client/ui-workbook/
+?? packages/client/ui-workspace/src/client/mode.ts
+?? packages/client/ui-workspace/tests/mode.client.spec.ts
+?? packages/experimental/camera-input-bundle/
+?? packages/experimental/client-ui-camera-input/
